@@ -13,7 +13,7 @@ namespace GetNameOfFiles
         static void Main(string[] args)
         {
             Console.WriteLine("Enter Path");
-            Console.Writeline("Day times kids");
+            Console.Writeline("Day times");
             var dirPath = @"" + Console.ReadLine();
 
             if (Directory.Exists(dirPath))
